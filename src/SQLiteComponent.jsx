@@ -6,22 +6,6 @@ const SQLiteComponent = forwardRef((props, ref) => {
   const [db, setDb] = useState(null);
 
   useEffect(() => {
-      const loadSqlJs = () => {
-        return new Promise((resolve, reject) => {
-          if (window.initSqlJs) {
-            resolve(window.initSqlJs);
-            return;
-          }
-  
-          const script = document.createElement("script");
-          script.src = `${process.env.PUBLIC_URL}/sql-wasm.js`;
-          script.onload = () => resolve(window.initSqlJs);
-          script.onerror = reject;
-          document.body.appendChild(script);
-        });
-      };
-  
-  
     const loadDatabase = async () => {
       try {
         const SQL = await window.initSqlJs({

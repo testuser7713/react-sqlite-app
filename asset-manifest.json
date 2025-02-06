@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-sqlite-app/static/css/main.e6c13ad2.css",
-    "main.js": "/react-sqlite-app/static/js/main.c766cb42.js",
+    "main.js": "/react-sqlite-app/static/js/main.458f38af.js",
     "static/js/488.64b03755.chunk.js": "/react-sqlite-app/static/js/488.64b03755.chunk.js",
     "index.html": "/react-sqlite-app/index.html",
     "main.e6c13ad2.css.map": "/react-sqlite-app/static/css/main.e6c13ad2.css.map",
-    "main.c766cb42.js.map": "/react-sqlite-app/static/js/main.c766cb42.js.map",
+    "main.458f38af.js.map": "/react-sqlite-app/static/js/main.458f38af.js.map",
     "488.64b03755.chunk.js.map": "/react-sqlite-app/static/js/488.64b03755.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c766cb42.js"
+    "static/js/main.458f38af.js"
   ]
 }

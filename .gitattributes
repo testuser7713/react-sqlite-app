@@ -1,0 +1,2 @@
+*.wasm binary filter=lfs diff=lfs merge=lfs
+*.wasm application/wasm

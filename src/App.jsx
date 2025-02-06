@@ -27,7 +27,7 @@ const App = () => {
       <h1>React SQLite App</h1>
       <SQLiteComponent ref={sqliteRef} />
 
-      <h3>Search for a Number by Text</h3>
+      <h3>Search for shirt-inventory by putting the shirt ID eg., shirt5</h3>
       <input
         type="text"
         value={searchText}
@@ -39,7 +39,7 @@ const App = () => {
         <p>Number value for "{searchText}": <strong>{fetchedNumber}</strong></p>
       )}
 
-      <h3>Update a Row in Database</h3>
+      <h3>Once user clicks checkout button, reduce the shirt-inventory in Database by the amount of shirts user is buying</h3>
       <input
         type="text"
         value={updateText}

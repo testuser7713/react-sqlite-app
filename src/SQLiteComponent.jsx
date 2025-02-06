@@ -11,7 +11,7 @@ const SQLiteComponent = () => {
     const loadDatabase = async () => {
       try {
         const SQL = await window.initSqlJs({
-          locateFile: (file) => `/sql-wasm.wasm`,
+          locateFile: (file) => `${process.env.PUBLIC_URL}/sql-wasm.wasm`,
         });
 
         const request = indexedDB.open("MyDatabase", 1);
